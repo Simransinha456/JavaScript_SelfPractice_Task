@@ -23,7 +23,7 @@
         }
 
         button.addEventListener('click', async () => {
-            const result = navigator.geolocation.getCurrentPosition(gotLocation, failedToGetLocation);
+            navigator.geolocation.getCurrentPosition(gotLocation, failedToGetLocation);
         }); 
     </script>
 
